@@ -107,7 +107,7 @@ public class Main {
 
         SinglyLinkedListNode llist3 = mergeLists(llist1.head, llist2.head);
 
-        while (llist3.next != null) {
+        while (llist3 != null) {
             System.out.println(llist3.data);
             llist3 = llist3.next;
         }
